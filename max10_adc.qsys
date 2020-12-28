@@ -276,7 +276,7 @@
   <parameter name="CLOCK_FREQ" value="50000000" />
   <parameter name="CORE_VAR" value="0" />
   <parameter name="DEVICE_PART" value="10M08SAE144C8GES" />
-  <parameter name="ENABLE_DEBUG" value="0" />
+  <parameter name="ENABLE_DEBUG" value="1" />
   <parameter name="FAMILY" value="MAX 10" />
   <parameter name="MONITOR_COUNT_WIDTH" value="12" />
   <parameter name="clkdiv" value="2" />
@@ -318,14 +318,14 @@
   <parameter name="en_tsd_min" value="false" />
   <parameter name="enable_usr_sim" value="0" />
   <parameter name="external_vref" value="2.5" />
-  <parameter name="int_vref_vr" value="3.0" />
+  <parameter name="int_vref_vr" value="3.3" />
   <parameter name="ip_is_for_which_adc" value="1" />
   <parameter name="prescaler_ch16" value="false" />
   <parameter name="prescaler_ch8" value="false" />
-  <parameter name="refsel" value="0" />
+  <parameter name="refsel" value="1" />
   <parameter name="sample_rate" value="0" />
   <parameter name="seq_order_length" value="1" />
-  <parameter name="seq_order_slot_1" value="0" />
+  <parameter name="seq_order_slot_1" value="1" />
   <parameter name="seq_order_slot_10" value="30" />
   <parameter name="seq_order_slot_11" value="30" />
   <parameter name="seq_order_slot_12" value="30" />
@@ -443,8 +443,8 @@
   <parameter name="tsclksel" value="1" />
   <parameter name="tsd_max" value="125" />
   <parameter name="tsd_min" value="0" />
-  <parameter name="use_ch0" value="true" />
-  <parameter name="use_ch1" value="false" />
+  <parameter name="use_ch0" value="false" />
+  <parameter name="use_ch1" value="true" />
   <parameter name="use_ch10" value="false" />
   <parameter name="use_ch11" value="false" />
   <parameter name="use_ch12" value="false" />
