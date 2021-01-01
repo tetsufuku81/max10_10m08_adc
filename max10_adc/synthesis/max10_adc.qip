@@ -2,7 +2,7 @@ set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_TOOL_NAM
 set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_TOOL_VERSION "20.1"
 set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "max10_adc" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../max10_adc.sopcinfo"]
-set_global_assignment -entity "max10_adc" -library "max10_adc" -name SLD_INFO "QSYS_NAME max10_adc HAS_SOPCINFO 1 GENERATION_ID 1609157006"
+set_global_assignment -entity "max10_adc" -library "max10_adc" -name SLD_INFO "QSYS_NAME max10_adc HAS_SOPCINFO 1 GENERATION_ID 1609470560"
 set_global_assignment -library "max10_adc" -name MISC_FILE [file join $::quartus(qip_path) "../max10_adc.cmp"]
 set_global_assignment -library "max10_adc" -name SLD_FILE [file join $::quartus(qip_path) "max10_adc.debuginfo"]
 set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_TARGETED_DEVICE_FAMILY "MAX 10"
@@ -15,7 +15,7 @@ set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_COMPONEN
 set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_COMPONENT_REPORT_HIERARCHY "On"
 set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_COMPONENT_INTERNAL "Off"
 set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_COMPONENT_VERSION "MS4w"
-set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTYwOTE1NzAwNg==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTYwOTQ3MDU2MA==::QXV0byBHRU5FUkFUSU9OX0lE"
 set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::TUFYIDEw::QXV0byBERVZJQ0VfRkFNSUxZ"
 set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::MTBNMDhTQUUxNDRDOEdFUw==::QXV0byBERVZJQ0U="
 set_global_assignment -entity "max10_adc" -library "max10_adc" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::OA==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
@@ -548,7 +548,7 @@ set_global_assignment -entity "max10_adc_modular_adc_0" -library "max10_adc" -na
 set_global_assignment -entity "max10_adc_modular_adc_0" -library "max10_adc" -name IP_COMPONENT_PARAMETER "cmVmZXJlbmNlX3ZvbHRhZ2Vfc2lt::NjU1MzY=::SW50ZWdlciBlbmNvZGVkIHJlZmVyZW5jZSB2b2x0YWdlIGZvciBzaW11bGF0aW9uIHB1cnBvc2Vz"
 set_global_assignment -entity "max10_adc_modular_adc_0" -library "max10_adc" -name IP_COMPONENT_PARAMETER "cHJlc2NhbGFy::MA==::cHJlc2NhbGFy"
 set_global_assignment -entity "max10_adc_modular_adc_0" -library "max10_adc" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3Vzcl9zaW0=::MA==::RW5hYmxlIHVzZXIgY3JlYXRlZCBleHBlY3RlZCBvdXRwdXQgZmlsZQ=="
-set_global_assignment -entity "max10_adc_modular_adc_0" -library "max10_adc" -name IP_COMPONENT_PARAMETER "dXNlX3RzZA==::ZmFsc2U=::VXNlIG9uLWNoaXAgVFNE"
+set_global_assignment -entity "max10_adc_modular_adc_0" -library "max10_adc" -name IP_COMPONENT_PARAMETER "dXNlX3RzZA==::dHJ1ZQ==::VXNlIG9uLWNoaXAgVFNE"
 set_global_assignment -entity "max10_adc_modular_adc_0" -library "max10_adc" -name IP_COMPONENT_PARAMETER "ZW5fdHNkX21heA==::ZmFsc2U=::RW5hYmxlIE1heGltdW0gdGhyZXNob2xkIGZvciBvbi1jaGlwIFRTRA=="
 set_global_assignment -entity "max10_adc_modular_adc_0" -library "max10_adc" -name IP_COMPONENT_PARAMETER "dHNkX21heA==::MTI1::TWF4aW11bSBUZW1wZXJhdHVyZSBUaHJlc2hvbGQ="
 set_global_assignment -entity "max10_adc_modular_adc_0" -library "max10_adc" -name IP_COMPONENT_PARAMETER "ZW5fdHNkX21pbg==::ZmFsc2U=::RW5hYmxlIE1pbmltdW0gdGhyZXNob2xkIGZvciBvbi1jaGlwIFRTRA=="

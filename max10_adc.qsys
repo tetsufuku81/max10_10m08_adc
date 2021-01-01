@@ -460,7 +460,7 @@
   <parameter name="use_ch7" value="false" />
   <parameter name="use_ch8" value="false" />
   <parameter name="use_ch9" value="false" />
-  <parameter name="use_tsd" value="false" />
+  <parameter name="use_tsd" value="true" />
  </module>
  <connection
    kind="avalon"
